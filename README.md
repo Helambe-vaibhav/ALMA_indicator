@@ -26,7 +26,8 @@ import numpy as np
 import pandas as pd
 from ta.utils import IndicatorMixin
 
-class ALMAIndicator(IndicatorMixin):'''
+class ALMAIndicator(IndicatorMixin):
+python'''
  # Class implementation...
 Create an instance of the ALMAIndicator class by providing the closing price series and the desired window size:
 close_prices = ...  # Replace with your closing price series
