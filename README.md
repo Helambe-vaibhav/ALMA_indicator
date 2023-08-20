@@ -19,16 +19,8 @@ pip install numpy pandas technical-analysis
 python
 Copy code
 
-2. Import the required libraries and the `ALMAIndicator` class:
-
-```python
-import numpy as np
-import pandas as pd
-from ta.utils import IndicatorMixin
-
-class ALMAIndicator(IndicatorMixin):
-python'''
- # Class implementation...
+2. Import the required libraries and the `ALMAIndicator` class
+# Class implementation...
 Create an instance of the ALMAIndicator class by providing the closing price series and the desired window size:
 close_prices = ...  # Replace with your closing price series
 window_size = ...    # Replace with your desired window size
@@ -40,6 +32,7 @@ Parameters
 close: A pandas Series containing the closing prices.
 window: The window size used for calculating the ALMA.
 fillna: A boolean indicating whether to fill NaN values. Default is False.
+
 Example
 import numpy as np
 import pandas as pd
